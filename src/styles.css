@@ -1,0 +1,47 @@
+/** to make box sizing easier **/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url("./assets/pawel-czerwinski-SVVCP23JFyg-unsplash.jpg");
+  display: flex;
+  justify-content: center;
+}
+
+.calculator-grid {
+  display: grid;
+  margin-top: 2rem;
+  /** create our columns, 4 different columns **/
+  grid-template-columns: repeat(4, 6rem);
+  /** create our rows, the first row will be 7rem or expand to fill the entire height for long numbers, repeat for 5 more rows of buttons **/
+  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+}
+
+.calculator-grid button {
+  font-size: 2rem;
+  outline: none;
+  border: 1px solid white;
+  background-color: rgba(255, 255, 255, 0.721);
+}
+
+/** to highlight moused over button in white **/
+.calculator-grid button:hover,
+.calculator-grid button:focus {
+  background-color: white;
+}
+
+.span-two {
+  /** makes the buttons span 2 columns instead of 1 (so the button is larger/longer across 2 columns) **/
+  grid-column: span 2;
+}
+
+.output {
+  /** to make our output span the entire top row **/
+  grid-column: 1 / -1;
+  background-color: rgba(255, 255, 255, 0.243);
+  border: 1px solid white;
+}
