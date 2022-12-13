@@ -5,6 +5,7 @@
 # Project Overview
 
 This is a calculator created using React.
+It is hosted via Netlify at - https://bucolic-pony-f9159a.netlify.app/
 
 ---
 
