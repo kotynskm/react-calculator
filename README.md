@@ -5,7 +5,7 @@
 # Project Overview
 
 This is a calculator created using React.
-It is hosted via Netlify at - https://bucolic-pony-f9159a.netlify.app/
+It is hosted via Netlify at - https://mycalc-react.netlify.app
 
 ---
 
@@ -29,4 +29,4 @@ Dashboard page:
 **GitHub:** https://github.com/kotynskm
 **LinkedIn:** https://www.linkedin.com/in/kkotynski
 **Medium:** https://medium.com/@k.kotynski
-**Portfolio:** https://kotynskm.github.io/portfolio-website/
+**Portfolio:** https://kaileykotynski.netlify.app/
